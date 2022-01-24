@@ -9,7 +9,7 @@ pipeline {
     }
    
      stages {
-        stage ('Build')
+         stage ('Build'){
             steps {
                echo "Hello Devops Engineers"
             }
@@ -51,5 +51,5 @@ pipeline {
         }
       }
     
-          
+     }    
     }
