@@ -5,3 +5,5 @@ COPY . /src/java
 WORKDIR /src/java
 RUN ["javac", "Helloworld.java"]
 ENTRYPOINT ["java", "Helloworld"]
+
+Expose 8080
